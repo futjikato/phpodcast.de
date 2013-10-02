@@ -1,0 +1,3 @@
+futjikato_phpodcast_homepage:
+    pattern:  /
+    defaults: { _controller: FutjikatoPhpodcastBundle:Default:index }

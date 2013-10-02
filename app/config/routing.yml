@@ -1,0 +1,7 @@
+futjikato_phpodcast:
+    resource: "@FutjikatoPhpodcastBundle/Resources/config/routing.yml"
+    prefix:   /
+
+futjikato_admin:
+    resource: "@FutjikatoAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
