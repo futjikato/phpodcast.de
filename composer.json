@@ -26,6 +26,8 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
+        "mlpz/mailchimp-bundle": "dev-master",
+
         "kuborgh/auphonicbundle": "*@dev"
     },
     "scripts": {

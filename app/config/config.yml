@@ -64,3 +64,8 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+
+mz_mail_chimp:
+    api_key: %mailchimp_api_key% #Mailchimp API Key
+    default_list: %mailchimp_default_list% #default list id
+    ssl: true #option to use http or https

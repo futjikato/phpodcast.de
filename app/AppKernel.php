@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Futjikato\PhpodcastBundle\FutjikatoPhpodcastBundle(),
             new Futjikato\AdminBundle\FutjikatoAdminBundle(),
+            new MZ\MailChimpBundle\MZMailChimpBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

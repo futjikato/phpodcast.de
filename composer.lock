@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d734668d4d3f80b6010266310cdd5a0e",
+    "hash": "e87d9cff7a9bd6ecbb9279571afca1e1",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -866,6 +866,52 @@
             "time": "2013-10-02 14:02:55"
         },
         {
+            "name": "mlpz/mailchimp-bundle",
+            "version": "dev-master",
+            "target-dir": "MZ/MailChimpBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miguel250/MZMailChimpBundle.git",
+                "reference": "16ec81ec997aa03c1bc5961c994e36416ce75ea1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/miguel250/MZMailChimpBundle/zipball/16ec81ec997aa03c1bc5961c994e36416ce75ea1",
+                "reference": "16ec81ec997aa03c1bc5961c994e36416ce75ea1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "kriswallsmith/buzz": ">=0.7",
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": "2.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "MZ\\MailChimpBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miguel Perez",
+                    "email": "miguel@mlpz.mp"
+                }
+            ],
+            "description": "mailchimp bundle",
+            "homepage": "http://www.mlpz.mp",
+            "keywords": [
+                "api",
+                "mailchimp",
+                "newsletter"
+            ],
+            "time": "2013-07-09 13:35:55"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.6.0",
             "source": {
@@ -1592,6 +1638,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mlpz/mailchimp-bundle": 20,
         "kuborgh/auphonicbundle": 20
     },
     "platform": {
